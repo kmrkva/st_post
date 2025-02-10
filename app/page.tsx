@@ -122,7 +122,7 @@ export default function CompareIPhones() {
     }).join(",").slice(0, 4000)
 
     // Construct URL with existing Qualtrics parameters and new parameters
-    const baseUrl = 'https://baylor.qualtrics.com/jfe/form/SV_7VOYibk5CAELbYW/'
+    const baseUrl = 'https://baylor.qualtrics.com/jfe/form/SV_cUs5YHREWAFwGSG/'
     const queryParams = new URLSearchParams({
       ...qualtricsParms,
       lmclicks: lmclicks,
